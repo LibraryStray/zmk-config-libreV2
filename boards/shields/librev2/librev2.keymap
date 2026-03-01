@@ -19,5 +19,21 @@
    &kp SPACE                                                                 &kp SPACE 
                         >;
                 };
+            fn_layer {
+// ---------------------------------------------------------------------------------
+// |  ESC |  1  |  2  |  3  |  4  |  5  |           |  6  |  7  |  8  |  9  |  0  | BKSP |
+// |  TAB |  Q  |  W  |  E  |  R  |  T  |           |  Y  |  U  |  I  |  O  |  P  |  DEL |
+// | SHFT |  A  |  S  |  D  |  F  |  G  |           |  H  |  J  |  K  |  L  |  \  | SHFT |
+// | CRTL |  Z  |  X  |  C  |  V  |  B  |           |  N  |  M  | Win | Alt | Fn  |PrtSc |
+// |      |     |     |     |     |     | SPC | Ent |     |     |     |     |     |      |
+                        bindings = <
+   &none    &none    &none    &none    &none    &none                        &none    &none    &none    &none    &none    &none       
+   &none    &none    &none    &none    &none    &none                        &none    &none    &none    &none    &none    &none  
+   &none    &none    &none    &none    &none    &none                        &none    &none    &none    &none    &none    &none  
+   &none    &none    &none    &none    &none    &none                        &none    &none    &none    &none    &none    &none  
+   &none                                                                &none 
+                        >;
+                };
+
         };
 }; 
