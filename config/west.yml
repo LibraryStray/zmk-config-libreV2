@@ -13,7 +13,7 @@ manifest:
       remote: zmkfirmware
       import: app/west.yml
     - name: zmk-keyboard-librev2
-      remote: libre
+      remote: librev2
       revision: main
   self:
     path: config
